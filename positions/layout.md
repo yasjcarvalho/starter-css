@@ -31,7 +31,7 @@ Lidera 5 propriedades:
    Observo que os box2 e box3 voltam a ocupar o fluxo normal "static" e o box1 começa a ocupar um novo fluxo.
 
 2. O elemento position absolute é posicionado em relação ao seu parent element mais próximo. Se ele elemento "pai" não existir, ele será posicionado em relação ao bloco contento a raiz do elemento.
-   Ou seja, o box1 vai ser absoluto referente a sua página toda: tente com "top: 0px;" observa-se que ele gruda no top.
+   Ou seja, o box1 vai ser absoluto referente a sua página toda: tente com "margin-top: 0px;" observa-se que ele gruda no top.
 
 3. Ao adicionar um elemento "main", o box1 continua absoluto a página. Teste: Coloque todas as divs dentro do "main" e no css coloque
    main {
@@ -50,4 +50,10 @@ Também lidera 5 propriedades:
 
 # # Fixed
 
+1. Quando aplicado o position fixed é como se criasse um elemento flutuante que fica fixo na página, independente do scrolling feito.
+
 # # Element Stacking
+
+É o empilhamneto de elemento. Podemos usar o z-index para determinar a ordem da posição do elemento. Quanto maior o z-index, mais "acima" vai aparecer o elemento.
+
+- z-index

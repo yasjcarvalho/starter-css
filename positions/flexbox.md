@@ -1,5 +1,7 @@
 # Flexbox
 
+-Nessa aula vamos ver uma introdução de como posicionar elementos usando o CSS Flexbox
+
 - Nos permite posicionar os elementos dentro da caixa.
 - Controle em uma dimensão (horizontal ou vertical)
 - Alinhamento, direcionamento, ordenar e tamanhos.
